@@ -25,4 +25,4 @@ ipython_config.py
 
 # Large files (Github limit is 100MB, warn at 50MB. Model is ~88MB)
 # Uncomment the next line if you want to exclude the model
-# mask_detection_model.keras
+mask_detection_model.keras

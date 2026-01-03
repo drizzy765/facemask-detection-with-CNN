@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import cv2
+import os
 from tensorflow.keras.models import load_model
 from PIL import Image
 
@@ -16,7 +17,7 @@ st.title("Face Mask Detection")
 st.write("Upload an image to check whether the person is wearing a mask.")
 
 
-# Load Model
+# Load Model 
 
 MODEL_PATH = "mask_detection_model.keras"
 model = load_model(MODEL_PATH)
