@@ -48,6 +48,7 @@ The application detects whether a person in an uploaded image is wearing a face 
 -   scikit-learn
 -   kagglehub
 
+
 ## Model
 
 The model is saved as `mask_detection_model.keras` and is expected to be in the project root directory.
