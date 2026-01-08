@@ -20,7 +20,12 @@ st.write("Upload an image to check whether the person is wearing a mask.")
 # Load Model 
 
 MODEL_PATH = "mask_detection_model.keras"
-model = load_model(MODEL_PATH)
+
+@st.cache_resource
+def load_keras_model(model_path):
+    return load_model(model_path)
+
+model = load_keras_model(MODEL_PATH)
 
 
 # Image Upload
