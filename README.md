@@ -2,6 +2,9 @@
 
 This project implements a Face Mask Detection system using a Convolutional Neural Network (CNN) and Streamlit for the web interface.
 
+## Live Demo
+Check out the live application here: [Face Mask Detection App](https://facemask-detection-with-cnn-4fwxblmrkprubx4pr5moyb.streamlit.app/)
+
 ## Overview
 
 The application detects whether a person in an uploaded image is wearing a face mask or not. It uses a pre-trained Keras model (`mask_detection_model.keras`) for prediction.
